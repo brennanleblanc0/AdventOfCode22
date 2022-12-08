@@ -6,7 +6,6 @@ public class DayOne {
         Elf currentElf = new Elf();
         Scanner fileScanner = new Scanner(new File("input.txt"));
 
-        int iteration = 1;
         int[] currentHighest = {0, 0, 0};
 
         while(fileScanner.hasNext()) {
@@ -24,7 +23,6 @@ public class DayOne {
                     currentHighest[2] = currentElf.getCalories();
                 }
                 currentElf.resetCalories();
-                iteration++;
             }
         }
 
