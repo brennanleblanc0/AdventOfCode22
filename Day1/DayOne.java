@@ -28,6 +28,8 @@ public class DayOne {
             }
         }
 
+        fileScanner.close();
+
         System.out.println("Amount of highest: " + currentHighest[0]);
 
         System.out.println("Amount all 3: " + (currentHighest[0] + currentHighest[1] + currentHighest[2]));
